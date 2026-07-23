@@ -75,4 +75,8 @@ OBS:
                 para borrar o fundo de objetos que possuam transparência. Para 
                 que o efeito seja visível, o elemento em si precisa ter um fundo 
                 semi-transparente.
+.tracking-[0.3em]: define o espaçamento entre as letras (conhecido no CSS 
+                   tradicional como letter-spacing) com um valor arbitrário e 
+                   exato de 0.3em. Esse valor significa que cada caractere será 
+                   afastado do outro em 30% do tamanho da fonte atual.
 */
