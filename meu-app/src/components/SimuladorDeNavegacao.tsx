@@ -79,4 +79,8 @@ OBS:
                    tradicional como letter-spacing) com um valor arbitrário e 
                    exato de 0.3em. Esse valor significa que cada caractere será 
                    afastado do outro em 30% do tamanho da fonte atual.
+.rounded-full: define a propriedade border-radius: 9999px. Se aplicada a um 
+               elemento com altura e largura iguais (um quadrado), ela cria um 
+               círculo perfeito. Em elementos retangulares, ela cria o efeito de 
+               pílula (bordas totalmente arredondadas nas pontas).
 */
