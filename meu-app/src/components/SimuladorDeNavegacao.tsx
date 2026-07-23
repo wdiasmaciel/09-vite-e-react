@@ -57,3 +57,16 @@ const styles = {
   principal: 'mx-auto max-w-5xl px-6 py-10',
   caixaConteudo: 'rounded-3xl border border-slate-800 bg-slate-900/70 p-6 shadow-2xl shadow-black/20',
 };
+
+/*
+OBS:
+.border-b: usada para aplicar uma borda inferior (na parte de baixo) de 1px 
+           em um elemento, funcionando como um atalho para a propriedade CSS 
+           border-bottom-width: 1px. Por padrão, ela precisa de uma cor 
+           (ex: border-black) e um estilo (ex: border-solid) para aparecer 
+           visivelmente.
+.bg-slate-900/80: aplica um fundo cinza-escuro com 80% de opacidade. O 900 
+                  define a tonalidade da paleta slate (um tom bem escuro 
+                  quase preto) e o /80 indica a transparência, permitindo 
+                  que elementos ou imagens por trás fiquem levemente visíveis.
+*/
