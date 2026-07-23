@@ -40,3 +40,14 @@ const styles = {
   itemLista: 'flex items-center gap-2',
   ponto: 'h-2.5 w-2.5 rounded-full bg-cyan-400',
 };
+
+/*
+OBS:
+.space-y-6: usada para aplicar um espaçamento vertical de 1.5rem (24px) 
+            entre os elementos filhos de um contêiner, funcionando como 
+            um atalho para a propriedade CSS margin-bottom.
+.tracking-[0.3em]: usada para aplicar um espaçamento entre caracteres de 0.3em,
+                   funcionando como um atalho para a propriedade CSS letter-spacing.
+.text-base: usada para aplicar um tamanho de fonte de 1rem (16px), funcionando
+            como um atalho para a propriedade CSS font-size.
+*/
