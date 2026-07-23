@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Home from '../pages/Home';
 import Sobre from '../pages/Sobre';
 
-export default function App() {
+export default function SimuladorDeNavegacao() {
   const [telaAtual, setTelaAtual] = useState<'home' | 'sobre'>('home');
 
   return (
