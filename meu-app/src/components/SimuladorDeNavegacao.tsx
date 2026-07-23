@@ -46,11 +46,11 @@ export default function App() {
 
 const styles = {
   container: 'min-h-screen bg-slate-950 text-slate-100',
-  cabeçalho: 'border-b border-slate-800 bg-slate-900/80 backdrop-blur',
+  cabeçalho: 'border-b border-slate-700 bg-slate-900/80 backdrop-blur',
   conteudoCabecalho: 'mx-auto flex max-w-5xl items-center justify-between px-6 py-6',
   rotuloMarca: 'text-sm font-semibold uppercase tracking-[0.3em] text-cyan-400',
   tituloMarca: 'text-2xl font-semibold text-white',
-  navegação: 'flex gap-3 rounded-full border border-slate-800 bg-slate-950/80 p-2',
+  navegação: 'flex gap-3 rounded-full border border-slate-700 bg-slate-800/80 p-2',
   botaoNavegacao: 'rounded-full px-4 py-2 text-sm font-medium transition',
   botaoNavegacaoAtivo: 'bg-cyan-500 text-slate-950',
   botaoNavegacaoInativo: 'text-slate-300 hover:bg-slate-800 hover:text-white',
