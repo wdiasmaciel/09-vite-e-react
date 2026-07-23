@@ -69,4 +69,10 @@ OBS:
                   define a tonalidade da paleta slate (um tom bem escuro 
                   quase preto) e o /80 indica a transparência, permitindo 
                   que elementos ou imagens por trás fiquem levemente visíveis.
+.backdrop-blur: aplica um efeito de desfoque (como o estilo glassmorphism ou 
+                vidro fosco) ao que está posicionado atrás de um elemento. Essa 
+                classe utiliza a propriedade nativa do CSS backdrop-filter: blur() 
+                para borrar o fundo de objetos que possuam transparência. Para 
+                que o efeito seja visível, o elemento em si precisa ter um fundo 
+                semi-transparente.
 */
