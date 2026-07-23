@@ -5,8 +5,8 @@ export default function Home() {
         <p className={styles.legenda}>Página inicial</p>
         <h2 className={styles.titulo}>Bem-vindo ao simulador de navegação</h2>
         <p className={styles.descricao}>
-          Este exemplo simula uma navegação entre páginas com Vite, 
-          React e Tailwind CSS.
+          Este exemplo simula uma navegação entre páginas, 
+          empregando o Hook useState.
         </p>
       </div>
 
@@ -21,7 +21,7 @@ export default function Home() {
         <article className={styles.cartao}>
           <h3 className={styles.tituloCartao}>Visual</h3>
           <p className={styles.textoCartao}>
-            A configuração foi definida com Tailwind CSS.
+            Os estilos foram definidos com Tailwind CSS.
           </p>
         </article>
       </div>
@@ -40,3 +40,19 @@ const styles = {
   tituloCartao: 'text-lg font-semibold text-white',
   textoCartao: 'mt-2 text-sm text-slate-400',
 };
+
+/*
+OBS:
+.space-y-6: usada para aplicar um espaçamento vertical de 1.5rem (24px) 
+            entre os elementos filhos de um contêiner, funcionando como 
+            um atalho para a propriedade CSS margin-bottom.
+.tracking-[0.3em]: usada para aplicar um espaçamento entre caracteres de 0.3em,
+                   funcionando como um atalho para a propriedade CSS letter-spacing.
+.text-base: usada para aplicar um tamanho de fonte de 1rem (16px), funcionando
+            como um atalho para a propriedade CSS font-size.
+.grid: usada para aplicar um layout de grade (grid) em um contêiner, funcionando
+       como um atalho para a propriedade CSS display: grid.
+.md:grid-cols-2: usada para definir o número de colunas em uma grade (grid) 
+                como 2, mas apenas em telas médias (md) ou maiores, funcionando
+                como um atalho para a propriedade CSS grid-template-columns.
+*/
