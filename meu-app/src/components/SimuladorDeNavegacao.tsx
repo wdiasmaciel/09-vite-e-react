@@ -11,7 +11,7 @@ export default function App() {
         <div className={styles.conteudoCabecalho}>
           <div>
             <p className={styles.rotuloMarca}>Simular</p>
-            <h1 className={styles.tituloMarca}>Navegação em React com o Hook useState</h1>
+            <h1 className={styles.tituloMarca}>Navegação em React, usando o Hook useState</h1>
           </div>
 
           <nav className={styles.navegação}>
