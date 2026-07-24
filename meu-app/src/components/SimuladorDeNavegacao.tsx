@@ -90,7 +90,7 @@ OBS:
 .shadow-cyan-500/70: define a cor e a opacidade da sombra. Significa cor ciano com 70% 
                      de opacidade. Isso substitui o padrão do Tailwind (que costuma ser 
                      um cinza escuro) por um azulado/esverdeado (azul-piscina/turquesa 
-                     vibrante) com estilo glow ou neon.
+                     vibrante) com estilo neon.
 .shadow-2xl e .shadow-cyan-500/70: essas duas classes trabalham juntas para criar uma 
-                                   sombra grande, difusa com estilo glow ou neon. 
+                                   sombra grande, difusa com estilo neon. 
 */
